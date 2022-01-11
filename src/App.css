@@ -1,0 +1,19 @@
+
+.caixa{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: burlywood;
+}
+
+.caixa a{
+  font-size: 1.5em;
+  text-decoration: none;
+  color: black;
+}
+
+.caixa a:hover{
+  background-color: black;
+  color: white;
+}
