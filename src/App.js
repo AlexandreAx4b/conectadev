@@ -7,7 +7,6 @@ import SignIn from './pages/SignIn';
 
 export default function App(){
 
-    const url = window.location.href;
     return(
         <ThemeProvider theme={theme}>
             <BrowserRouter>
