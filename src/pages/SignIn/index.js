@@ -1,5 +1,4 @@
 import React from "react";
-import { makeStyles } from "@material-ui/core/styles";
 import Typography from "@material-ui/core/typography"; 
 import Grid from "@material-ui/core/Grid";
 import Box from "@material-ui/core/Box";
@@ -8,32 +7,7 @@ import LockOutlinedIcon from "@material-ui/icons/LockOutlined";
 import TextField from "@material-ui/core/TextField";
 import Button from "@material-ui/core/Button";
 import Link from "@material-ui/core/Link";
-
-const useStyles = makeStyles((theme) => ({
-    root:{
-        height:'100vh'
-    },
-    image:{
-        backgroundImage:'url(/imagens/background.jpg)',
-        backgroundPosition:'center',
-        backgroundSize:'cover',
-        backgroundRepeat:'none'
-    },
-    avatar:{
-        background: theme.palette.primary.main,
-        marginBottom: theme.spacing(1),
-    },
-    button:{
-        marginTop: theme.spacing(1)
-    },
-    form:{
-        margin: theme.spacing(0,4)
-    },
-    link:{
-        fontSize:18,
-        marginLeft: theme.spacing(2)
-    }
-}));
+import { useStyles } from "../../theme/style";
 
 function Copyright(){
     return(
